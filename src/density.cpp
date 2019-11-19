@@ -1,6 +1,6 @@
 #include <RcppArmadillo.h>
 
-#include <kde/kde.hpp>  // ANN declarations
+#include "kde/kde.hpp"  // ANN declarations
 using namespace Rcpp;
 using namespace arma;
 
