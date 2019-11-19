@@ -217,7 +217,7 @@ double digamma_0(double x) // this modified digamma function avoids the undefine
 //'  This subroutine calculates the volume of a d-dimensional unit ball for Euclidean norm
 double vd_cpp(const int d)
 {
-  double vd_res = 0.5 * d * log(M_PI) - log(gamma(0.5 * d + 1));
+  double vd_res = 0.5 * d * log(M_PI) - log(digamma(0.5 * d + 1));
   return vd_res;
 }
 
