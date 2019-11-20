@@ -2,7 +2,7 @@
 % Please edit documentation in R/plotting.R
 \name{plot_cross_map}
 \alias{plot_cross_map}
-\title{Plot the relationship between the predicted value (\hat{x}(t) | M_y) and the observed x(t).}
+\title{Plot the relationship between the predicted value (hat{x}(t) | M_y) and the observed x(t).}
 \usage{
 plot_cross_map(cds_subset, gene_pairs_mat, tau = 1, E = 2,
   Type = c("Prediction", "Relationship"), verbose = FALSE,
