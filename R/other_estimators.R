@@ -4,7 +4,7 @@
 #' 
 #' This function uses the grangertest function from lmtest package to determine if one time series contains the necessary 
 #' dynamic information to recover the influence of another causal variable. Note that granger casuality only deals with linear relationships. 
-#' See the \package{lmtest} for details
+#' See the package{lmtest} for details
 #' of the grangertest function. 
 #' 
 #' @param ordered_exprs_mat CellDataSet for the experiment
@@ -33,7 +33,7 @@ cal_grangertest <- function(ordered_exprs_mat) { # why not just x0, x1 as argume
 #' Perform the Granger causality test for two genes. 
 #' 
 #' This function uses the grangertest function from vars package to determine if one time series contain the necessary 
-#' dynamic information to recover the influence of another causal variable. See the \package{vars} for details
+#' dynamic information to recover the influence of another causal variable. See the package{vars} for details
 #' of the VAR or causality function. 
 #' 
 #' @param ordered_exprs_mat CellDataSet for the experiment
@@ -93,8 +93,8 @@ calculate_grangertest <- function(exprs_data, verbose = FALSE) {
 
 #' Calculate the mutual information between all gene pairs   
 #' 
-#' This function uses the knnmi.all function from \package{parmigene} package to calculate the mutual information between all pairs of genes in the data. 
-#' See the \package{parmigene} for details of the knnmi.all function. 
+#' This function uses the knnmi.all function from package{parmigene} package to calculate the mutual information between all pairs of genes in the data. 
+#' See the package{parmigene} for details of the knnmi.all function. 
 #'  
 #' @param cds CellDataSet for the experiment
 #' @return a ggplot2 plot object
@@ -148,7 +148,7 @@ cal_knn_mi <- function(cds, k = 5) {
 #' Perform cross-convergence mapping test for two genes. 
 #' 
 #' This function uses the CCM function from rEDM package to determine if one time series contain the necessary 
-#' dynamic information to recover the influence of another causal variable. See the \package{rEDM} for details
+#' dynamic information to recover the influence of another causal variable. See the package{rEDM} for details
 #' of the ccm function. 
 #' 
 #' @param ordered_exprs_mat CellDataSet for the experiment
