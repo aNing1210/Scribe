@@ -20,7 +20,7 @@ a
 }
 \description{
 This function uses the CCM function from rEDM package to determine if one time series contain the necessary 
-dynamic information to recover the influence of another causal variable. See the \package{rEDM} for details
+dynamic information to recover the influence of another causal variable. See the package{rEDM} for details
 of the ccm function.
 }
 \examples{
