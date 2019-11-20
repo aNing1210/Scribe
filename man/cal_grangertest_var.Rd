@@ -14,7 +14,7 @@ a ggplot2 plot object
 }
 \description{
 This function uses the grangertest function from vars package to determine if one time series contain the necessary 
-dynamic information to recover the influence of another causal variable. See the \package{vars} for details
+dynamic information to recover the influence of another causal variable. See the package{vars} for details
 of the VAR or causality function.
 }
 \examples{
