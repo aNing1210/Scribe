@@ -15,7 +15,7 @@ a matrix
 \description{
 This function uses the grangertest function from lmtest package to determine if one time series contains the necessary 
 dynamic information to recover the influence of another causal variable. Note that granger casuality only deals with linear relationships. 
-See the \package{lmtest} for details
+See the package{lmtest} for details
 of the grangertest function.
 }
 \examples{
