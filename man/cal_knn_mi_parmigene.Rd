@@ -13,8 +13,8 @@ cal_knn_mi_parmigene(cds)
 a ggplot2 plot object
 }
 \description{
-This function uses the knnmi.all function from \package{parmigene} package to calculate the mutual information between all pairs of genes in the data. 
-See the \package{parmigene} for details of the knnmi.all function.
+This function uses the knnmi.all function from package{parmigene} package to calculate the mutual information between all pairs of genes in the data. 
+See the package{parmigene} for details of the knnmi.all function.
 }
 \examples{
 \dontrun{
