@@ -1199,7 +1199,7 @@ plot_shadow_manifold <- function(cds_subset, gene_name, d = 1){
   
 }
 
-#' Plot the relationship between the predicted value (\hat{x}(t) | M_y) and the observed x(t). 
+#' Plot the relationship between the predicted value (hat{x}(t) | M_y) and the observed x(t). 
 #' 
 #' This plotting function uses the simplex projection from the shadow manifold to estimate the source gene's value and then 
 #' plot against the observe value. If there is a true causality from x to y, the predicted point should match up with 
