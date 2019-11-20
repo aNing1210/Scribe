@@ -2,7 +2,7 @@
 % Please edit documentation in R/plotting.R
 \name{plot_gene_pairs_scatter3D}
 \alias{plot_gene_pairs_scatter3D}
-\title{Plot the scatterplot formed by the space of x_{t - \mu}, y_t as well as y_{t - 1} for a single pair of genes.}
+\title{Plot the scatterplot formed by the space of x_{t - mu}, y_t as well as y_{t - 1} for a single pair of genes.}
 \usage{
 plot_gene_pairs_scatter3D(cds_subset, gene_pair, d = 1, run_vec = NULL)
 }
@@ -19,8 +19,8 @@ plot_gene_pairs_scatter3D(cds_subset, gene_pair, d = 1, run_vec = NULL)
 a plotly object
 }
 \description{
-This plot function is used to visualize the space formed by x_{t - \mu}, y_t as well as y_{t - 1} which is 
-used to calculate the RDI score I(x_t -> Y_t) = CMI(x_{t - \mu}, y_t | y_{t - 1}). Please check other ploting
+This plot function is used to visualize the space formed by x_{t - mu}, y_t as well as y_{t - 1} which is 
+used to calculate the RDI score I(x_t -> Y_t) = CMI(x_{t - mu}, y_t | y_{t - 1}). Please check other ploting
 functions (plot_gene_pairs_in_pseudotime, plot_gene_pairs_branched_pseudotime, plot_lagged_drevi, plot_cross_map, plot_gene_pairs_causality, plot_comb_logic) for more intuitive 
 visualization.
 }
