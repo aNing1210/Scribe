@@ -571,10 +571,10 @@ plot_gene_pairs_branched_pseudotime <- function(cds_subset,
 
 # implement the support for multiple runs (run_vec) 
 
-#' Plot the scatterplot formed by the space of x_{t - \mu}, y_t as well as y_{t - 1} for a single pair of genes. 
+#' Plot the scatterplot formed by the space of x_{t - mu}, y_t as well as y_{t - 1} for a single pair of genes. 
 #' 
-#' This plot function is used to visualize the space formed by x_{t - \mu}, y_t as well as y_{t - 1} which is 
-#' used to calculate the RDI score I(x_t -> Y_t) = CMI(x_{t - \mu}, y_t | y_{t - 1}). Please check other ploting
+#' This plot function is used to visualize the space formed by x_{t - mu}, y_t as well as y_{t - 1} which is 
+#' used to calculate the RDI score I(x_t -> Y_t) = CMI(x_{t - mu}, y_t | y_{t - 1}). Please check other ploting
 #' functions (plot_gene_pairs_in_pseudotime, plot_gene_pairs_branched_pseudotime, plot_lagged_drevi, plot_cross_map, plot_gene_pairs_causality, plot_comb_logic) for more intuitive 
 #' visualization. 
 #' 
